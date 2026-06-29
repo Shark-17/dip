@@ -1,0 +1,196 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="bTG3Gh7B9QRWiZLbbX4x" name="Страница-1">
+    <mxGraphModel dx="1740" dy="928" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e_users" parent="1" style="shape=mxgraph.erd.entity;fontStyle=1;fontSize=13;" value="пользователь" vertex="1">
+          <mxGeometry height="60" width="160" x="320" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="a_u_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="ИД пользователя" vertex="1">
+          <mxGeometry height="50" width="140" x="80" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="a_u_fio" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="ФИО" vertex="1">
+          <mxGeometry height="50" width="120" x="60" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="a_u_birth" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="дата рождения" vertex="1">
+          <mxGeometry height="50" width="130" x="60" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="a_u_phone" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="телефон" vertex="1">
+          <mxGeometry height="50" width="120" x="60" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="a_u_email" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="email" vertex="1">
+          <mxGeometry height="50" width="120" x="60" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="a_u_login" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="логин" vertex="1">
+          <mxGeometry height="50" width="120" x="200" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="a_u_pass" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="пароль" vertex="1">
+          <mxGeometry height="50" width="120" x="260" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="l_u_id" edge="1" parent="1" source="a_u_id" style="endArrow=none;" target="e_users">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_u_fio" edge="1" parent="1" source="a_u_fio" style="endArrow=none;" target="e_users">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_u_birth" edge="1" parent="1" source="a_u_birth" style="endArrow=none;" target="e_users">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_u_phone" edge="1" parent="1" source="a_u_phone" style="endArrow=none;" target="e_users">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_u_email" edge="1" parent="1" source="a_u_email" style="endArrow=none;" target="e_users">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_u_login" edge="1" parent="1" source="a_u_login" style="endArrow=none;" target="e_users">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_u_pass" edge="1" parent="1" source="a_u_pass" style="endArrow=none;" target="e_users">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_admins" parent="1" style="shape=mxgraph.erd.entity;fontStyle=1;fontSize=13;" value="администратор" vertex="1">
+          <mxGeometry height="60" width="160" x="1120" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="a_ad_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="ИД администратора" vertex="1">
+          <mxGeometry height="50" width="150" x="1300" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="a_ad_name" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="ФИО" vertex="1">
+          <mxGeometry height="50" width="120" x="1320" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="a_ad_log" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="логин" vertex="1">
+          <mxGeometry height="50" width="120" x="1320" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="a_ad_pass" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="пароль" vertex="1">
+          <mxGeometry height="50" width="120" x="1315" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="l_ad_id" edge="1" parent="1" source="a_ad_id" style="endArrow=none;" target="e_admins">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_ad_name" edge="1" parent="1" source="a_ad_name" style="endArrow=none;" target="e_admins">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_ad_log" edge="1" parent="1" source="a_ad_log" style="endArrow=none;" target="e_admins">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_ad_pass" edge="1" parent="1" source="a_ad_pass" style="endArrow=none;" target="e_admins">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_orders" parent="1" style="shape=mxgraph.erd.entity;fontStyle=1;fontSize=13;" value="заявка" vertex="1">
+          <mxGeometry height="60" width="160" x="700" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="a_o_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="ИД заявки" vertex="1">
+          <mxGeometry height="50" width="120" x="600" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="a_o_email" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="email подтверждения" vertex="1">
+          <mxGeometry height="50" width="150" x="740" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="a_o_svc" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="вид транспорта" vertex="1">
+          <mxGeometry height="50" width="140" x="900" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="a_o_date" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="дата" vertex="1">
+          <mxGeometry height="50" width="120" x="940" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="a_o_time" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="время" vertex="1">
+          <mxGeometry height="50" width="120" x="940" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="a_o_pay" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="способ оплаты" vertex="1">
+          <mxGeometry height="50" width="130" x="905" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="a_o_status" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="статус" vertex="1">
+          <mxGeometry height="50" width="120" x="820" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="a_o_created" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="дата создания" vertex="1">
+          <mxGeometry height="50" width="130" x="560" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="l_o_id" edge="1" parent="1" source="a_o_id" style="endArrow=none;" target="e_orders">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_o_email" edge="1" parent="1" source="a_o_email" style="endArrow=none;" target="e_orders">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_o_svc" edge="1" parent="1" source="a_o_svc" style="endArrow=none;" target="e_orders">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_o_date" edge="1" parent="1" source="a_o_date" style="endArrow=none;" target="e_orders">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_o_time" edge="1" parent="1" source="a_o_time" style="endArrow=none;" target="e_orders">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_o_pay" edge="1" parent="1" source="a_o_pay" style="endArrow=none;" target="e_orders">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_o_status" edge="1" parent="1" source="a_o_status" style="endArrow=none;" target="e_orders">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_o_created" edge="1" parent="1" source="a_o_created" style="endArrow=none;" target="e_orders">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_reviews" parent="1" style="shape=mxgraph.erd.entity;fontStyle=1;fontSize=13;" value="отзыв" vertex="1">
+          <mxGeometry height="60" width="160" x="690" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="a_r_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="ИД отзыва" vertex="1">
+          <mxGeometry height="50" width="120" x="540" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="a_r_rating" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="оценка (1–5)" vertex="1">
+          <mxGeometry height="50" width="130" x="540" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="a_r_text" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="текст" vertex="1">
+          <mxGeometry height="50" width="120" x="700" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="a_r_created" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="дата создания" vertex="1">
+          <mxGeometry height="50" width="130" x="860" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="l_r_id" edge="1" parent="1" source="a_r_id" style="endArrow=none;" target="e_reviews">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_r_rating" edge="1" parent="1" source="a_r_rating" style="endArrow=none;" target="e_reviews">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_r_text" edge="1" parent="1" source="a_r_text" style="endArrow=none;" target="e_reviews">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_r_created" edge="1" parent="1" source="a_r_created" style="endArrow=none;" target="e_reviews">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_uo" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;" value="оставляет" vertex="1">
+          <mxGeometry height="50" width="130" x="510" y="447" as="geometry" />
+        </mxCell>
+        <mxCell id="l_uo_u" edge="1" parent="1" source="e_users" style="endArrow=none;fontSize=11;" target="rel_uo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_uo_o" edge="1" parent="1" source="rel_uo" style="endArrow=none;fontSize=11;" target="e_orders">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_ao" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;" value="управляет" vertex="1">
+          <mxGeometry height="50" width="130" x="930" y="447" as="geometry" />
+        </mxCell>
+        <mxCell id="l_ao_a" edge="1" parent="1" source="e_admins" style="endArrow=none;" target="rel_ao">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_ao_o" edge="1" parent="1" source="rel_ao" style="endArrow=none;" target="e_orders">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_or" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;" value="содержит" vertex="1">
+          <mxGeometry height="50" width="130" x="715" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="l_or_o" edge="1" parent="1" source="e_orders" style="endArrow=none;" target="rel_or">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_or_r" edge="1" parent="1" source="rel_or" style="endArrow=none;" target="e_reviews">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_ur" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;" value="пишет" vertex="1">
+          <mxGeometry height="50" width="120" x="410" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="l_ur_u" edge="1" parent="1" source="e_users" style="endArrow=none;" target="rel_ur">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_ur_r" edge="1" parent="1" source="rel_ur" style="endArrow=none;" target="e_reviews">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
